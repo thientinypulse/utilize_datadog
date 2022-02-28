@@ -1,0 +1,11 @@
+inherit_gem:
+  rubocop-tinypulse:
+    - ruby.yml        # RuboCop and RuboCop Performance
+    - rspec.yml       # RuboCop RSpec
+    - metrics.yml     # RuboCop Metrics
+
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - coverage/**/*
+    - gems/**/*

@@ -1,0 +1,38 @@
+PATH
+  remote: .
+  specs:
+    utilize_datadog (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.5.0)
+    dogapi (1.45.0)
+      multi_json
+    multi_json (1.15.0)
+    rake (13.0.6)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
+
+PLATFORMS
+  x86_64-darwin-17
+
+DEPENDENCIES
+  dogapi
+  rake (~> 13.0)
+  rspec (~> 3.11)
+  utilize_datadog!
+
+BUNDLED WITH
+   2.3.8
